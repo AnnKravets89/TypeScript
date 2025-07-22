@@ -55,4 +55,5 @@ let user = new User('asd', 6, true);
 let users: User[] = [
     new User('asdghj', 6, true),
 ];
+console.log(users);
 
