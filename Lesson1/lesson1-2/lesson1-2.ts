@@ -12,7 +12,7 @@ let c: string = 'Hello World';
 // arr.push('1');
 // arr.push(true);
 
-let arr: any[] = [];
-arr.push(1);
-arr.push('1');
-arr.push(true);
+// let arr: any[] = [];
+// arr.push(1);
+// arr.push('1');
+// arr.push(true);
