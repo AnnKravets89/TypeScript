@@ -2,12 +2,14 @@ type UserType =  {
     name: string;
     age: number;
     status: boolean;
-    asd?: string;
+    greeting?: (srt: string) => string;
 }
 
 let users: UserType[] = [
-    {name: 'vasya', age: 31, status: false, asd: 'asdfsdf'},
-    {name: 'petya', age: 30, status: true},
+    {greeting: (str: string) => 'Hello World1',
+        name: 'vasya', age: 31, status: false,},
+    {greeting: (str: string) => 'Hello World2',
+        name: 'petya', age: 30, status: true},
     {name: 'kolya', age: 29, status: true},
     {name: 'olya', age: 28, status: false},
     {name: 'max', age: 30, status: true},
