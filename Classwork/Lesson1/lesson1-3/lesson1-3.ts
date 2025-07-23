@@ -36,24 +36,24 @@
 //         name: 'petya', age: 30, status: true}
 // ];
 
-class User {
-    name: string;
-    age: number;
-    status: boolean;
-
-    constructor(name: string, age: number, status: boolean) {
-        this.name = name;
-        this.age = age;
-        this.status = status;
-    }
-    greeting() {
-        console.log('Hello World');
-    }
-}
-let user = new User('asd', 6, true);
-
-let users: User[] = [
-    new User('asdghj', 6, true),
-];
-console.log(users);
+// class User {
+//     name: string;
+//     age: number;
+//     status: boolean;
+//
+//     constructor(name: string, age: number, status: boolean) {
+//         this.name = name;
+//         this.age = age;
+//         this.status = status;
+//     }
+//     greeting() {
+//         console.log('Hello World');
+//     }
+// }
+// let user = new User('asd', 6, true);
+//
+// let users: User[] = [
+//     new User('asdghj', 6, true),
+// ];
+// console.log(users);
 

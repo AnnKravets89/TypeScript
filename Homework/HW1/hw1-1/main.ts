@@ -44,8 +44,15 @@ console.log(typeof co);
 // --------------------------------------------------------
 let firstNameP: string|null = prompt('What is your name?');
 let middleNameP: string|null = prompt('What is your middle name?');
-let age: string|null = prompt('How old are you?');
+let ageStrValue: string|null = prompt('How old are you?');
 
-let result = `${firstNameP} ${middleNameP} ${age}`;
-console.log(result);
+let result = `${firstNameP} ${middleNameP} ${ageStrValue}`;
+
+if (ageStrValue !== null) {
+    let ageNumValue: number = +ageStrValue;
+    console.log(ageNumValue);
+}
+
+
+
 
