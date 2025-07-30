@@ -10,7 +10,7 @@ let pi: number = 3.14;
 let point: number = 2.7;
 let six: number = 16;
 let t: boolean = true;
-let f: boolean = false;
+let f11: boolean = false;
 
 console.log(hello);
 console.log(owu);
