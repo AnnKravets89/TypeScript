@@ -1,5 +1,5 @@
 const arr22: string[] = ['Main', 'Products', 'About us', 'Contacts'];
-let menu: HTMLDListElement = document.createElement('ul');
+let menu: HTMLUListElement = document.createElement('ul');
 
 for (const item of arr22) {
     let li: HTMLLIElement = document.createElement('li');
