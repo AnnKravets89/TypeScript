@@ -1,4 +1,4 @@
- class User {
+ class User26 {
      get name(): string {
          return this._name;
      }
@@ -36,11 +36,11 @@
 
    }
 }
-let user: User = new User('anna', 12, true);
- console.log(user.name);
- user.name = 'banana';
+let user26: User26 = new User26('anna', 12, true);
+ console.log(user26.name);
+ user26.name = 'banana';
 
- class User2 extends User {
+ class User27 extends User26 {
      // id: number;
 
      constructor(name: string, age: number, status: boolean, private _id: number) {
@@ -56,7 +56,7 @@ let user: User = new User('anna', 12, true);
          this._id = value;
      }
  }
- let user2 = new User2('Mark', 45, false, 3);
- console.log(user2.name);
- console.log(user2.id);
+ let user27 = new User27('Mark', 45, false, 3);
+ console.log(user27.name);
+ console.log(user27.id);
 
