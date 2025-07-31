@@ -1,21 +1,21 @@
 interface IProduct {
-    "id": number;
-    "title": string;
-    "price": number;
-    "quantity": number;
-    "total": number;
-    "discountPercentage": number;
-    "discountedTotal": number;
-    "thumbnail": string;
+    id: number;
+    title: string;
+    price: number;
+    quantity: number;
+    total: number;
+    discountPercentage: number;
+    discountedTotal: number;
+    thumbnail: string;
 }
 interface ICart {
     id: number;
     products: IProduct[];
-    "total": number;
-    "discountedTotal": number;
-    "userId": number;
-    "totalProducts": number;
-    "totalQuantity": number;
+    total: number;
+    discountedTotal: number;
+    userId: number;
+    totalProducts: number;
+    totalQuantity: number;
 }
 fetch('https://dummyjson.com/carts?limit=50')
     .then(response => response.json())
