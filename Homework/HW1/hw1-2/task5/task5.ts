@@ -34,3 +34,4 @@ let weekTemperatures: Temperature[] = [
         temperatures: [15, 23, 19]
     }
 ];
+console.log(weekTemperatures);

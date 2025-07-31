@@ -8,6 +8,5 @@ function returnTheSmallestNumber(array: number[]): number {
     }
     return smallestNumber;
 }
-
 let numbers: number[] = [12, 7, 25, 9, 30, 41, 3, 17, 8, 21];
 console.log(returnTheSmallestNumber(numbers));

@@ -1,16 +1,3 @@
-// type GeoType = { lat: string, lng: string }
-// type AddressType = {
-//     street: string,
-//     suite: string,
-//     city: string,
-//     zipcode: string,
-//     geo: GeoType[]
-// }
-// type CompanyType = {
-//     name: string,
-//     catchPhrase: string,
-//     bs: string
-// }
 type UserList = {
     id: number,
     name: string,

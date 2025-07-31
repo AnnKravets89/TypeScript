@@ -64,3 +64,6 @@ let book3: Book = {
         }
     ]
 };
+console.log(book1);
+console.log(book2);
+console.log(book3);
