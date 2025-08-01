@@ -32,5 +32,5 @@ function getIDog<T>(key: string): T {
     }
     return {} as T;
 }
-getIDog<IDog>('dog')
+getIDog<IDog>('dog');
 getIDog<IUserLS>('user');
